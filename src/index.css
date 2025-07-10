@@ -5,9 +5,3 @@ html, body {
   background-color: grey;
   color: white;
 }
-@theme {
-  * {
-    scroll-behavior: smooth;
-    --color-white-50: #d9ecff;
-  }
-}
