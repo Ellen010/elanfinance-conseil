@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div>Footer</div>
+        <h1 className="text-3xl font bold">Footer</h1>
     )
 }
 export default Footer

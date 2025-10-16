@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div>Hero</div>
+        <h1 className="text-3xl font bold">Hero</h1>
     )
 }
 export default Hero
