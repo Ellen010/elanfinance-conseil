@@ -40,3 +40,17 @@
 .read-the-docs {
   color: #888;
 }
+.logo {
+  height: 10em;
+  width: 10em;
+  border-radius: 25%;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.logo:hover {
+  box-shadow: 0 0 30px rgba(188, 143, 143, 0.9)
+  transform: scale(1.05);
+}
+.navBarIcon {
+  height: 3em;
+  width: 3em;
+}

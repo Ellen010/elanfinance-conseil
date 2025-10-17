@@ -5,6 +5,8 @@ import About from './sections/About.jsx'
 import Contact from './sections/Contact.jsx'
 import Services from './sections/Services.jsx'
 import Footer from './sections/Footer.jsx'
+import './app.css';
+
 
 
 
@@ -16,15 +18,15 @@ function App() {
                 <Navbar />
                 <Hero />
                 <About />
-                <Contact  />
                 <Services />
+                <Contact  />
                 <Footer />
             </div>
 
-            <p className="read-the-docs">
+            <p className="text-s font bold text-red-800">
                 All rights reserved to ÉlanFinance Conseil ©.
             </p>
-            <p className="read-the-docs">
+            <p className="text-s font bold text-red-800">
                 Website created by Yvelines Technologies.
             </p>
         </>
