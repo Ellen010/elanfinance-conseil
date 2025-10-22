@@ -1,7 +1,7 @@
 export const navLinks = [
     {label: 'Accueil'},
     {label: 'À propos'},
-    {label: 'Conseil - Stratégie'},
+    {label: 'Conseil'},
     {label: 'Accompagnement'},
     {label: 'Contact'},
 ];

@@ -5,7 +5,7 @@ import About from './sections/About.jsx'
 import Contact from './sections/Contact.jsx'
 import Services from './sections/Services.jsx'
 import Footer from './sections/Footer.jsx'
-import './App.css';
+import './index.css';
 
 
 
