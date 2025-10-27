@@ -164,11 +164,11 @@ body {
       @apply relative lg:overflow-hidden my-20;
 
       video {
-        @apply w-full h-4/5 object-cover object-center;
+        @apply w-full object-cover object-center;
       }
 
       .mask {
-        @apply absolute h-3/5 top-0 lg:-top-40 xl:top-0;
+        @apply absolute h-7/8 top-0 lg:-top-40 xl:top-0;
 
         img {
           @apply h-full scale-150 lg:scale-100;
