@@ -117,16 +117,8 @@ body {
         @apply text-xl font-bold text-red-800;
       }
 
-      .navBarList: hover {
-        @apply shadow-[0_0_30px_rgba(188,143,143,0.9)] scale-y-200;
-      }
-
       .navBarIcon {
         @apply h-8 w-8;
-      }
-
-      .navBarIcon :hover {
-        @apply shadow-[0_0_30px_rgba(188,143,143,0.9)] scale-y-200;
       }
     }
       #hero {
@@ -158,10 +150,10 @@ body {
     }
   }
   #showcase {
-    @apply relative;
+    @apply relative lg:overflow-hidden my-20 max-h-3/4;
 
     .media {
-      @apply relative lg:overflow-hidden my-20;
+      @apply relative lg:overflow-hidden my-20 max-h-3/4;
 
       video {
         @apply w-full object-cover object-center;
@@ -174,13 +166,15 @@ body {
           @apply h-full scale-150 lg:scale-100;
           transform: matrix(80, 0, 0, 80, 0, 0);
         }
-
         @media (max-width: 1024px) {
           img {
             transform: matrix(1, 0, 0, 1, 0, 0);
           }
         }
       }
+    }
+    .link {
+      @apply text-red-950 cursor-pointer hover:-translate-y-0.5 transition-all duration-300 ease-in-out;
     }
   }
   }
