@@ -4,7 +4,7 @@ const Services = () => {
     return (
         <section id="services">
             <div>
-                <h1 className="text-3xl font bold text-red-800">Services</h1>
+                <h1  className="section-heading">Services</h1>
             </div>
         </section>
     )
