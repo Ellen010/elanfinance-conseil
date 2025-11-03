@@ -34,13 +34,11 @@ const Showcase = () => {
             </div>
             </div>
         </div>
-            <div className="w-full lg:w-1/2 ms-5 mr-20">
+            <div className="w-full lg:w-1/2 ms-5 mr-20 text-xl lg:text-xl">
                 <h2>Le projet « ÉlanFinance Conseil </h2>
                     <p>
                         est né d’une longue expérience en comptabilité,
                         analyse financière et gestion budgétaire acquise dans le secteur public et privé à l’international.
-                    </p>
-                    <p>
                         Après avoir accompagné des entreprises sur leurs problématiques de conformité,
                         de contrôle interne et de stratégie financière, l’ambition est désormais de proposer
                         <span className="text-black"> un service de contrôle de gestion externalisé </span>

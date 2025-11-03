@@ -121,6 +121,10 @@ body {
         @apply h-8 w-8;
       }
     }
+    .title {
+        @apply text-3xl font-bold text-red-800 m-10 flex justify-start shadow-[0_2px_rgba(188,143,143,0.9)]
+    }
+
       #hero {
       @apply h-fit lg:h-[80vh] col-center mt-40 lg:mt-20 2xl:mt-[7vh];
 
