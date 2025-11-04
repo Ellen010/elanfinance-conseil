@@ -7,7 +7,7 @@ const About = () => {
             <h1 className="title">À propos</h1>
         </div>
             <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
-                    <div className=" w-full lg:w-3/4 me-5 ml-20 text-lg lg:text-xl">
+                    <div className=" w-full lg:w-3/4 me-5 mr-30 text-lg lg:text-xl text-justify lg:text-left leading-relaxed">
                         <p>
                             Dans un monde économique de plus en plus complexe et réglementé,
                             la comptabilité ne se limite plus à l’enregistrement des opérations financières.
@@ -29,7 +29,7 @@ const About = () => {
                         </p>
                     </div>
 
-                <div className="w-full lg:w-1/2 ms-5 mr-20">
+                <div className="w-full lg:w-1/2 ms-5 mr-20 flex justify-center">
                     <img src="/about-pic.png" alt="ÉlanFinance Virtual Office Space" className="logo" />
                 </div>
             </div>

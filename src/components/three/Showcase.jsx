@@ -34,7 +34,7 @@ const Showcase = () => {
             </div>
             </div>
         </div>
-            <div className="w-full lg:w-1/2 ms-5 mr-20 text-xl lg:text-xl">
+            <div className="w-full lg:w-1/2 ms-5 mr-20 ml-30 text-xl lg:text-xl text-justify lg:text-left leading-relaxed">
                 <h2>Le projet « ÉlanFinance Conseil </h2>
                     <p>
                         est né d’une longue expérience en comptabilité,
