@@ -57,6 +57,7 @@ const Showcase = () => {
                             que consultante, la fondatrice de ÉlanFinance Conseil a identifié un besoin croissant des petites
                             structures françaises : avoir accès à une expertise financière flexible, externalisée et fiable.</p>
             </div>
+
         </section>
 
     )
