@@ -35,7 +35,7 @@ const Showcase = () => {
             </div>
         </div>
             <div className="w-full lg:w-1/2 ms-5 mr-20 ml-30 text-xl lg:text-xl text-justify lg:text-left leading-relaxed">
-                <h2>Le projet « ÉlanFinance Conseil </h2>
+                <h2 className="mini-title">Le projet « ÉlanFinance Conseil </h2>
                 <p className="description">
                         est né d’une longue expérience en comptabilité,
                         analyse financière et gestion budgétaire acquise dans le secteur public et privé à l’international.
@@ -49,7 +49,7 @@ const Showcase = () => {
                         Ce projet répond à un besoin croissant de flexibilité et d’expertise sans
                         que les entreprises aient à recruter en interne.
                     </p>
-                    <a href="#services" className="link" >En savoir plus sur nos services</a>
+                    <a href="#services" className=" mini-title link" >En savoir plus sur nos services</a>
                 <p className="description">Forte d’une expérience de plus de
                             <span className="text-black"> 15 ans </span>
                             dans le domaine de la comptabilité,

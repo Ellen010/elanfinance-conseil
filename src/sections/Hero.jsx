@@ -1,17 +1,34 @@
-import React, {useEffect, useRef} from 'react'
+import React, { useEffect, useRef } from "react";
 
 const Hero = () => {
     const videoRef = useRef();
+
     useEffect(() => {
-        if(videoRef.current) videoRef.current.playbackRate=1;
-    }, [])
+        if (videoRef.current) videoRef.current.playbackRate = 1;
+    }, []);
+
     return (
-        <section id="hero">
-            <div className="m-9">
-                <h1 className=" text-3xl font bold text-red-800 w-4/5 max-w-2xl rounded-lg shadow-lg">La clarté financière au service de votre croissance</h1>
-                    <video ref={videoRef} src="/videos/hero.mp4" controls width="80%" autoPlay playsInline />
-            <button>Contactez-nous</button>
+        <section id="hero" className="pt-32 pb-20 md:pt-40">
+            <div className="container mx-auto flex flex-col items-center text-center px-5">
+
+                <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-red-800 max-w-3xl mb-8 leading-snug">
+                    La clarté financière au service de votre croissance
+                </h1>
+                <video
+                    ref={videoRef}
+                    src="/videos/hero.mp4"
+                    className="w-full max-w-3xl rounded-lg shadow-lg mb-10"
+                    autoPlay
+                    playsInline
+                    muted
+                    loop
+                />
+                <button>
+                    Contactez-nous
+                </button>
             </div>
-        </section>)
-}
-export default Hero
+        </section>
+    );
+};
+
+export default Hero;

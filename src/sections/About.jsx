@@ -29,8 +29,8 @@ const About = () => {
                         </p>
                     </div>
 
-                <div className="w-full lg:w-1/2 ms-5 mr-20 flex justify-center">
-                    <img src="/about-pic.png" alt="ÉlanFinance Virtual Office Space" className="logo" />
+                <div className="photo-right">
+                    <img src="/about-pic.png" alt="ÉlanFinance Virtual Office Space" />
                 </div>
             </div>
         </section>

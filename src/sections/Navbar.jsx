@@ -23,12 +23,8 @@ const Navbar = () => {
                         ))}
                     </ul>
                     <div className="flex items-center gap-4">
-                        <button className="hover:scale-110 transition-all">
                             <img src="/search.png" alt="Search" className="navBarIcon" />
-                        </button>
-                        <button className="hover:scale-110 transition-all">
                             <img src="/cart.png" alt="Cart" className="navBarIcon" />
-                        </button>
                     </div>
                 </div>
             </nav>
