@@ -132,6 +132,9 @@ body {
           img {
             @apply container mx-auto w-2/3;
           }
+          .hero-title {
+             @apply text-xl md:text-3xl lg:text-4xl font-bold text-red-800 max-w-3xl mb-8 leading-snug
+          }
         }
 
       video {

@@ -11,7 +11,7 @@ const Hero = () => {
         <section id="hero" className="pt-32 pb-20 md:pt-40">
             <div className="container mx-auto flex flex-col items-center text-center px-5">
 
-                <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-red-800 max-w-3xl mb-8 leading-snug">
+                <h1 className="hero-title">
                     La clarté financière au service de votre croissance
                 </h1>
                 <video
