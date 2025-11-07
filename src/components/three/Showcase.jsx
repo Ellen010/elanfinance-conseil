@@ -27,7 +27,7 @@ const Showcase = () => {
     return (
         <section id="showcase" className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
         <div className="media">
-            <div className="media w-full lg:w-3/4 me-5 ml-20">
+            <div className="media w-full lg:w-3/4 me-5 ml-20 rounded-lg">
             <video src="/videos/video-showcase-one.mp4" loop muted autoPlay playsInline/>
             <div className="mask">
                 <img src="/mask-logo.png"/>

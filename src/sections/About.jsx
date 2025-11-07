@@ -54,7 +54,7 @@ const About = () => {
                     </div>
 
                 <div className="photo-right g_fadeIn">
-                    <img src="/about-pic.png" alt="ÉlanFinance Virtual Office Space" />
+                    <img src="/about-pic.png" alt="ÉlanFinance Virtual Office Space"  />
                 </div>
             </div>
         </section>

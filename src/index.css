@@ -82,13 +82,13 @@ body {
     }
   }
 .photo-right {
-  @apply w-full lg:w-1/2 ms-5 mr-20 flex justify-center
+  @apply w-full lg:w-1/2 ms-5 mr-20 flex justify-center rounded-lg overflow-hidden;
 }
 
   .photo-left {
-    @apply w-full lg:w-1/2 ms-5 mr-20 flex justify-center flex justify-center
+    @apply w-full lg:w-1/2 ms-5 mr-20 flex justify-center rounded-lg overflow-hidden;
   }
-      .logo {
+  .logo {
         @apply h-24 w-24 rounded-[25%] transition-all duration-300 ease-in-out m-4;
       }
 

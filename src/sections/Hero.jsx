@@ -17,11 +17,11 @@ const Hero = () => {
                 <video
                     ref={videoRef}
                     src="/videos/hero.mp4"
-                    className="w-full max-w-3xl rounded-lg shadow-lg mb-10"
+                    className="w-full max-w-5xl rounded-lg shadow-lg mb-10"
                     autoPlay
                     playsInline
-                    muted
                     loop
+                    controls
                 />
                 <button>
                     Contactez-nous
