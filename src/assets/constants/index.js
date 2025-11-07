@@ -3,5 +3,7 @@ export const navLinks = [
     {label: 'À propos'},
     {label: 'Conseil'},
     {label: 'Accompagnement'},
+    {label: 'Nos Services'},
     {label: 'Contact'},
 ];
+

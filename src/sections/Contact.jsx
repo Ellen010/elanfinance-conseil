@@ -3,8 +3,30 @@ import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
 import useAlert from '../hooks/useAlert.js';
 import Alert from '../components/Alert.jsx'
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap';
+import { animateWithGsap } from '../assets/constants/animations.js';
 
 const Contact = () => {
+    useGSAP(() => {
+        gsap.from('#contact', {
+            scrollTrigger: {
+                trigger: '#contact',
+                start: '20% bottom'
+            },
+            opacity: 0,
+            scale: 2,
+            duration: 2,
+            ease: 'power2.inOut'
+        })
+
+        animateWithGsap('.g_fadeIn', {
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: 'power2.inOut'
+        })
+    }, []);
     const formRef = useRef();
 
     const { alert, showAlert, hideAlert } = useAlert();
@@ -67,10 +89,15 @@ const Contact = () => {
     return (
         <section id="contact">
 
-            <h1 className="title">Contact</h1>
+            <h1 className="title g_fadeIn">Contact</h1>
             <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
-                <div className=" w-full lg:w-3/4 me-5 mr-30 text-lg lg:text-xl text-justify lg:text-left leading-relaxed">
-                    <p className="mini-title">Contactez-nous pour plus d'informations </p>
+                <div className="photo-left g_fadeIn">
+                <img src="/contact-pic.png" alt="ÉlanFinance Employe working on a financial report" />
+            </div>
+
+
+                <div className="w-full text-xl lg:w-1/2 ms-5 ml-30 text-justify lg:text-left leading-relaxed">
+                    <p className="mini-title g_fadeIn">Contactez-nous pour plus d'informations </p>
                     <div className="contact-container">
 
 
@@ -119,9 +146,7 @@ const Contact = () => {
 
                     </div>
                 </div>
-                <div className="photo-right">
-                    <img src="/contact-pic.png" alt="ÉlanFinance Employe working on a financial report" />
-                </div>
+
 
 
             </div>
