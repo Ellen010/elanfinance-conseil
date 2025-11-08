@@ -7,9 +7,9 @@ const Navbar = () => {
         <header>
             <nav className="flex justify-between items-center w-full px-8 py-4 bg-orange-50">
                 <div className="flex items-center gap-4">
-                    <Link href="/">
+                    <a href="#hero">
                     <img src="/logo.png" alt="ÉlanFinance Conseil logo" className="logo" />
-                    </Link>
+                </a>
 
                         <h1 className="absolute left-1/2 transform -translate-x-1/2 text-3xl font-bold text-red-800">ÉlanFinance Conseil</h1>
                 </div>
@@ -27,8 +27,12 @@ const Navbar = () => {
                         ))}
                     </ul>
                     <div className="flex items-center gap-4">
+                        <a href="#search">
                             <img src="/search.png" alt="Search" className="navBarIcon" />
+                    </a>
+                        <a href="#contact">
                             <img src="/cart.png" alt="Cart" className="navBarIcon" />
+                        </a>
                     </div>
                 </div>
             </nav>

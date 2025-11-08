@@ -1,5 +1,4 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
 import Navbar from './sections/Navbar.jsx';
 import Footer from './sections/Footer.jsx';
 import Hero from './sections/Hero.jsx';
@@ -15,12 +14,12 @@ const App = () => {
     return (
         <>
             <Navbar />
-            <Hero />
-            <Showcase/>
-            <About />
-            <Counseling/>
-            <Services />
-            <Contact  />
+            <Hero id="accueil" />
+            <Showcase id="showcase"  />
+            <About id="about" />
+            <Counseling id="accompagnement" />
+            <Services id="services" />
+            <Contact id="contact" />
             <Footer />
 
             <p className="text-s font bold text-red-800 text-center mt-4">
