@@ -200,3 +200,6 @@ body {
   @apply w-2.5 h-2.5 object-contain invert brightness-0;
 }
 
+.alert-p {
+  color: #841c21;
+}

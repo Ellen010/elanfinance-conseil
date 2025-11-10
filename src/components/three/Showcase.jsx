@@ -45,17 +45,15 @@ const Showcase = () => {
                         à destination des PME françaises.
                     </p>
 
-                <p className="description">
-                        Ce projet répond à un besoin croissant de flexibilité et d’expertise sans
-                        que les entreprises aient à recruter en interne.
-                    </p>
                     <a href="#services" className=" mini-title link" >En savoir plus sur nos services</a>
-                <p className="description">Forte d’une expérience de plus de
-                            <span className="text-black"> 15 ans </span>
-                            dans le domaine de la comptabilité,
-                            de l’analyse financière et de la gestion budgétaire, notamment dans le secteur public et en tant
-                            que consultante, la fondatrice de ÉlanFinance Conseil a identifié un besoin croissant des petites
-                            structures françaises : avoir accès à une expertise financière flexible, externalisée et fiable.</p>
+                <p className="description">La conjonction de l’importance économique des TPE, de leurs fragilités persistantes,
+                    et de leurs besoins précis en pilotage financier constitue une opportunité manifeste
+                    pour un projet comme
+                            <span className="text-black"> ÉlanFinance Conseil </span>
+                     . En se positionnant comme un partenaire de
+                    proximité, en proposant un suivi digitalisé, modulable, éthique et responsable,
+                    l’entreprise répondra non seulement à un besoin économique, mais aussi à une
+                    vocation sociale : accompagner les structures essentielles à la vitalité territoriale française. </p>
             </div>
 
         </section>

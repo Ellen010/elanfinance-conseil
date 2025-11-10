@@ -42,25 +42,22 @@ const Contact = () => {
         e.preventDefault();
         setLoading(true);
 
-        emailjs
-            .send(
-                import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-                import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-                {
-                    from_name: form.name,
-                    to_name: 'JavaScript Mastery',
-                    from_email: form.email,
-                    to_email: 'ewlen04@outlook.com',
-                    message: form.message,
-                },
-                import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
-            )
+        emailjs.send(
+            import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+            import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+            {
+                from_name: form.name,
+                from_email: form.email,
+                message: form.message,
+            },
+            import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
+        )
             .then(
                 () => {
                     setLoading(false);
                     showAlert({
                         show: true,
-                        text: 'Your message was sent. Thank you!',
+                        text: 'Votre message a bien été envoyé. Nous vous répondrons dans les plus brefs délais',
                         type: 'success',
                     });
 
@@ -71,7 +68,7 @@ const Contact = () => {
                             email: '',
                             message: '',
                         });
-                    }, [3000]);
+                    }, [6000]);
                 },
                 (error) => {
                     setLoading(false);
@@ -100,10 +97,10 @@ const Contact = () => {
                     <p className="mini-title g_fadeIn">Contactez-nous pour plus d'informations </p>
                     <div className="contact-container">
 
-
+                        {alert.show && <Alert {...alert} />}
                         <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
                             <label className="space-y-3">
-                                <span className="field-label">Full Name</span>
+                                <span className="field-label">Votre nom</span>
                                 <input
                                     type="text"
                                     name="name"
@@ -116,7 +113,7 @@ const Contact = () => {
                             </label>
 
                             <label className="space-y-3">
-                                <span className="field-label">Email address</span>
+                                <span className="field-label">Adresse email</span>
                                 <input
                                     type="email"
                                     name="email"
@@ -137,11 +134,13 @@ const Contact = () => {
                                     required
                                     rows={5}
                                     className="field-input"
-                                    placeholder="Share your thoughts or inquiries..."
+                                    placeholder="Partagez vos réflexions ou vos questions..."
                                 />
                             </label>
 
-                            <button>Contactez-nous</button>
+                            <button type="submit" disabled={loading}>
+                                {loading ? "Envoi en cours..." : "Contactez-nous"}
+                            </button>
                         </form>
 
                     </div>

@@ -31,7 +31,16 @@ const Services = () => {
 
                 <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
                     <div className=" w-full lg:w-3/4 me-5 mr-30 text-lg lg:text-xl text-justify lg:text-left leading-relaxed">
-                     <p className="description g_fadeIn">L’offre de service est structurée en trois types de missions adaptées à la variété des besoins :
+
+                        <p className="description g_fadeIn"> L’entreprise adopte dès son lancement une charte éthique accessible à tous,
+                            affirmant explicitement son engagement en faveur de la transparence intégrale dans la relation client.
+                            L’offre tarifaire est présentée de manière claire et modulable, permettant à chaque structure de composer
+                            une solution adaptée : abonnement mensuel ajustable, prestations à la carte ou séances ponctuelles de coaching.
+                            Le suivi du temps consacré et de la valeur réellement fournie est rigoureux, documenté et restitué sous
+                            forme de rapports clairs, afin de garantir la compréhension totale par le client des actions menées.
+                            Aucun frais caché n’est appliqué : tout coût additionnel éventuel est toujours déterminé à l’avance,
+                            expliqué et validé par écrit, assurant un cadre de collaboration fondé sur la confiance et la lisibilité.</p>
+                        <p className="description g_fadeIn">L’offre de service est structurée en trois types de missions adaptées à la variété des besoins :
                          <p className="description"><span className="text-black my-5"> 1. Mission de base — Forfait mensuel (Abonnement) </span></p>
                             <p className="sub-descriptiondescription ml-15">Reporting financier mensuel (chiffre d’affaires, marges, bilan, trésorerie)</p>
                              <p className="sub-description ml-15">Réunion de suivi  en visioconférence</p>
