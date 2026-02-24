@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>ÉlanFinance Conseil — Financial Consulting Website</h1>
+<h1>ÉlanFinance Conseil — Full-Stack Financial Consulting Website</h1>
 
 <p><strong>Live website:</strong> <a href="https://www.elanfinance-conseil.fr/" target="_blank">https://www.elanfinance-conseil.fr/</a></p>
 
@@ -12,11 +12,11 @@
 
 ## 📌 Project Overview
 
-**ÉlanFinance Conseil** is a modern, professional website developed for a **real, registered financial consulting company** providing accounting, financial advisory, and strategic support services to entrepreneurs, freelancers, and small-to-medium businesses.
+**ÉlanFinance Conseil** is a modern, professional **full-stack website** developed for a **real, registered financial consulting company**. The platform showcases accounting, financial advisory, and strategic consulting services for entrepreneurs, freelancers, and small-to-medium businesses.
 
-The platform was designed to reflect the company’s core values: **clarity, trust, transparency, and regulatory compliance**, while presenting financial services in a clear, accessible, and human-centered way.
+The website was designed to reflect the company’s core values: **clarity, trust, transparency, and regulatory compliance**, while providing an intuitive, user-friendly interface and robust backend functionality for operational needs.
 
-This is a **production website currently live and used by the business**.
+This is a **production website currently live and used by the business**, with ongoing development and maintenance.
 
 </div>
 
@@ -26,15 +26,15 @@ This is a **production website currently live and used by the business**.
 
 ## 🏢 About the Company
 
-ÉlanFinance Conseil operates in an increasingly complex and regulated financial environment, where accounting and financial management go far beyond simple bookkeeping.
+ÉlanFinance Conseil operates in a highly regulated financial environment where accounting and financial management are strategic levers for business growth.  
 
-The firm positions itself as a **strategic partner** for organizations seeking to:
-- Secure financial compliance
-- Anticipate risks
-- Optimize profitability
-- Build sustainable and transparent growth
+The company provides:
+- Financial clarity and reporting
+- Compliance with tax and regulatory requirements
+- Support for securing financing and managing risks
+- Strategic financial guidance for SMEs, freelancers, and social/professional organizations
 
-ÉlanFinance Conseil is a **100% digital, human, ethical, and eco-responsible firm**, officially registered with the **Chamber of Commerce**, and actively operating with real clients.
+ÉlanFinance Conseil is **100% digital, ethical, human-centered, and eco-responsible**, officially registered with the **Chamber of Commerce**, and actively serving clients.
 
 </div>
 
@@ -44,13 +44,13 @@ The firm positions itself as a **strategic partner** for organizations seeking t
 
 ## ✨ Key Features
 
-- Professional corporate website for financial consulting services
-- Clear service presentation and structured content hierarchy
-- Fully responsive design (desktop, tablet, mobile)
-- Smooth animations to enhance user experience without visual overload
-- Optimized performance and fast load times
-- Contact form integration for client inquiries
-- Scalable and maintainable frontend architecture
+- Full-stack development for production-ready, scalable website
+- Clear presentation of consulting services and company vision
+- Fully responsive across devices (desktop, tablet, mobile)
+- Interactive UI enhanced with smooth animations
+- Contact forms and email handling for client inquiries
+- Optimized performance, maintainability, and scalability
+- Secure, structured frontend-backend architecture
 
 </div>
 
@@ -61,27 +61,29 @@ The firm positions itself as a **strategic partner** for organizations seeking t
 ## 🧩 Tech Stack
 
 ### Frontend
-- **React 19** — Modern UI development
-- **Vite** — Fast builds and optimized bundling
+- **React 19** — Modern, component-based UI
+- **Vite** — Fast development server and optimized bundling
 - **React Router DOM** — Client-side routing
 - **Tailwind CSS v4** — Utility-first styling
 - **clsx** — Conditional class management
 - **React Responsive** — Device-based rendering logic
 
+### Backend & Integration
+- **EmailJS** — Contact form email handling
+- Backend endpoints for form submission and validations (Node.js serverless / API integration)
+
 ### Animation & Visuals
-- **GSAP** & **@gsap/react** — Smooth animations and transitions
-- **Three.js** — WebGL rendering
-- **@react-three/fiber** — React renderer for Three.js
-- **@react-three/drei** — 3D helpers and abstractions
+- **GSAP** & **@gsap/react** — Smooth transitions and animations
+- **Three.js** — WebGL-based 3D rendering
+- **@react-three/fiber** & **@react-three/drei** — React integration for 3D scenes
 - **@react-three/postprocessing** — Visual effects pipeline
 
-### State & Communication
+### State Management
 - **Zustand** — Lightweight global state management
-- **EmailJS** — Client-side email handling for contact forms
 
 ### Tooling & Quality
 - **ESLint** — Code quality and consistency
-- **Vite Plugin React** — Fast Refresh and improved DX
+- **Vite Plugin React** — Fast Refresh and improved developer experience
 
 </div>
 
@@ -91,13 +93,14 @@ The firm positions itself as a **strategic partner** for organizations seeking t
 
 ## 👩‍💻 My Role & Responsibilities
 
-- Designed and developed the complete frontend architecture
-- Translated business and regulatory requirements into a clear UI
-- Implemented responsive layouts and accessibility-conscious design
-- Integrated animations to support clarity and user engagement
-- Set up client contact flows using EmailJS
-- Optimized performance and maintainability
-- Delivered a production-ready website for a real consulting firm
+- **Developed the full-stack platform**, handling both **frontend and backend** development
+- Translated business and regulatory requirements into a **clear, professional UI/UX**
+- Implemented **responsive layouts** and accessibility-conscious design
+- Integrated **animations, 3D elements, and interactive features** to enhance user experience
+- Built **secure client contact flows** using EmailJS and backend validation
+- Optimized **performance, scalability, and maintainability** of the platform
+- Delivered a **production-ready website** for a real, registered consulting firm
+- Provided **ongoing support, updates, and technical improvements** after launch
 
 </div>
 
