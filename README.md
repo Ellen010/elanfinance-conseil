@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1 align="center">
-  <img alt="ÉlanFinance Conseil logo" src="https://github.com/user-attachments/assets/38ec16d6-3b2d-4eae-b404-ec5eabef4840" width="35" height="35" style="vertical-align: middle; margin-right: 8px;"/>
+  <img alt="ÉlanFinance Conseil logo" src="https://github.com/user-attachments/assets/38ec16d6-3b2d-4eae-b404-ec5eabef4840" width="50" height="50" style="vertical-align: middle; margin-right: 8px;"/>
   ÉlanFinance Conseil — Full-Stack Financial Consulting Website</h1>
 
 <p><strong>Live website:</strong> <a href="https://www.elanfinance-conseil.fr/" target="_blank">https://www.elanfinance-conseil.fr/</a></p>
